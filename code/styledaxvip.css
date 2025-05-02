@@ -1,0 +1,136 @@
+/* HEADER Y MENU */
+.headitems{margin-left:5px}
+header.main{background-color:rgb(11 17 35)}
+.head-main-nav ul.main-header li ul.sub-menu{top:55px;border-radius:8px}
+.head-main-nav ul.main-header li ul.sub-menu li a{padding:10px 20px !important;margin:0;background:0}
+header.main .hbox .logo{padding:13px 17px 17px;background-color:#0b1123}
+header.main .hbox .logo img{height:43px}
+.fix-hidden{display:flex;justify-content:space-between;align-items:center}
+.head-main-nav ul.main-header li a{background:#1c2241;margin-right:5px;border-radius:5px;padding:10px}
+.head-main-nav ul.main-header li a:hover{background:#1d2327;box-shadow:0px 9px 14px -6px rgb(0 0 0)}
+.head-main-nav ul.main-header{float:left;display:flex;align-items:center}
+.headitems.register_active{display:flex;align-items:center}
+header.main .hbox .search{padding:0}
+.dtuser .gravatar{display:flex}
+/* estilo login */
+.headitems a#dooplay_signout{margin:0 10px;border-radius:5px;color:#ffffff;border:1px #FFC107 solid}
+.headitems a#dooplay_signout:hover{background:#FFC107;color:#fbff00 !important}
+/* HOME DISEÑO */
+#dt_contenedor{background-color:#000000 !important}
+body{background-color:#F5F7FA !important}
+.featu{font-size:0;transform:rotate(327deg);left:-15px;top:4px;width:95px;background:#bd0acd !important}
+.featu:after{content:"Estreno";font-size:11px}
+div div header{border-bottom:1px solid #373737;
+background:#141414;/*background:linear-gradient(45deg,#15122f 10%,#2e0653 60%);*/border-radius:5px;box-shadow:0 1px 5px #000}
+.poster{border-radius:10px;box-shadow:0 0 3px 0px #000000}
+/* contenido */
+#dt_contenedor:before{content:"";box-shadow:inset 2px -420px 530px 300px #080F28;-moz-box-shadow:inset 2px -420px 530px 300px #080F28;-webkit-box-shadow:inset 2px -420px 530px 300px #080F28;backdrop-filter:none;background:rgb(3 4 22 / 83%);position:fixed;top:0;left:0;width:100%;height:100%;opacity:.9}
+body.page #dt_contenedor:before{display:none}
+#single{background:none;backdrop-filter:none}
+html{background:#000}
+.slider article.item .image{border-radius:10px}
+.slider article.item .image .data{background-image:-moz-linear-gradient(rgba(0,0,0,0),#02040e);background-image:-webkit-linear-gradient(rgba(0,0,0,0),#02040e);background-image:linear-gradient(rgba(0,0,0,0),#02040e)}
+/*.module{background:#080F28;background-image:linear-gradient(to right,#010114,#060b1e,#490350) !important}*/
+.module{background:#080F28;background-image:linear-gradient(to right,#000,#000) !important}
+.module .content.full_width_layout .items .item{width:calc(100%/ 8);margin:revert !important;border-radius:8px;background:none !important}
+.module .content header span a.see-all{background:rgb(255 255 255 / 80%);padding:8px 20px;color:#fff;font-weight:900;font-size:15px}
+.starstruck .star-on-png:before{color:#ffeb00 !important}
+a.report-video-error{color:#bed404;background:#0b1d28}
+.dooplay_player .options ul li:hover span.title{color:rgb(247 255 175 / 80%) !important}
+ul.smenu li a.selected{background:#084695}
+.dooplay_player .options ul{width:100%;margin:0 auto;display:-webkit-box;overflow:auto;overflow-y:hidden;scroll-snap-type:x mandatory}
+.dooplay_player .options ul li{width:auto;padding:10px;border:solid 1px rgb(0 0 0 / 96%);margin:1px;box-shadow:0 0 4px 0px rgb(82 74 12);-moz-box-shadow:0 0 4px 0px rgb(82 74 12);-webkit-box-shadow:0 0 4px 0px rgb(82 74 12);transition:all 0.3s ease-out 0s;-webkit-transition:all 0.4s ease-in-out 0s}
+.dooplay_player .options ul li:hover{box-shadow:inset 0 0 4px 0px rgb(82 74 12);-moz-box-shadow:inset 0 0 4px 0px rgb(82 74 12);-webkit-box-shadow:inset 0 0 4px 0px rgb(82 51 12);transition:all 0.3s ease-out 0s;-webkit-transition:all 0.4s ease-in-out 0s}
+.dooplay_player .options ul li i{color:#068b6c}
+.dooplay_player .options ul li span.server{margin-left:0}
+.dooplay_player .options ul li span.flag{margin-left:8px}
+.dooplay_player .options ul li span.flag img{width:20px;height:15px;border-radius:4px;border:0;margin-top:3px}
+.mCSB_container,.mCustomScrollBox{overflow:inherit}
+li#player-option-trailer i{color:#020202}
+li#player-option-trailer:hover{background:#b72424;background:linear-gradient(45deg,#f12323 0%,#f9b205 100%);background:linear-gradient(45deg,#f12323 0%,#f9b205 100%);background:linear-gradient(45deg,#f12323 0%,#f9b205 100%);transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s}
+li#player-option-trailer{background:#d33737;background:linear-gradient(45deg,#f9b205 0%,#f12323 100%);background:linear-gradient(45deg,#f9b205 0%,#f12323 100%);background:linear-gradient( 45deg,#f9b205 0%,#f12323 100%);position:absolute;top:70px;overflow:inherit;right:0;border-radius:5px;transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s}
+.dooplay_player .options ul li span.loader{background:#0043ff}
+.dooplay_player .options ul li span.loader{background:#ffdf00}
+.wp-content p{max-height:69px;overflow:auto}
+/* Barra Lateral */
+ul.genres.scrolling,ul.releases.scrolling{overflow:hidden !important;max-height:282px !important}
+.sidebar.right.scrolling{overflow:hidden !important}
+.sidebar img,.sidebar .image,.sidebar article{border-radius:8px !important}
+.dt_mainmeta{box-shadow:inset 0 0 13px -4px #000;border-radius:8px;padding:7px}
+.sidebar h2{background:#1f2555;padding:10px;border-radius:5px}
+/* OPCIONES PIE DE VIDEO IFRAME FEMBED */
+#playcontainer{padding-bottom:56%;position:relative}
+.dooplay_player .play .pframe{height:100%;left:0;position:absolute;top:0;width:100%;padding:10px;background:#090b16;box-shadow:inset 0 0 13px -4px #808080}
+.dooplay_player h2{padding:5px 30px}
+#dt_galery{border-top:none;padding-top:0}
+.wp-content{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.wp-content p:nth-child{font-size:20px}
+.custom_fields{display:none}
+.person{border-bottom:none}
+.links_table table tbody tr{border-bottom:solid 2px rgb(0 0 2);margin:5px}
+.links_table table tbody tr td{padding:5px 10px}
+.links_table table tbody tr td a{background:#072832;color:white;display:inline-block;padding:5px 15px;border-radius:5px}
+.starstruck-wrap{border-bottom:none;border-top:none}
+.sgeneros{height:auto}
+.sgeneros a:first-child{padding-left:5px;margin-bottom:5px}
+.sgeneros a{color:#fff;border-left:none;background:#28a745;margin:0 5px;padding:5px 12px;border-radius:5px}
+.starstruck-wrap{padding:5px 0}
+.galeria .g-item img{border-radius:5px}
+#dt_galery .g-item{border-radius:5px}
+#single .content .sbox{padding:5px 40px}
+/* CSS CANAL DE TV */
+div#genre_tv .owl-item{/* width:calc(100%/ 8) !important;*/}
+div#genre_tv .owl-item .item .poster{padding-top:60%;border-radius:12px}
+div#genre_tv .owl-item .item .poster img{position:relative;border-radius:12px;height:130px}
+/* LINEAS CSS */
+.sheader{border-bottom:none;border-radius:5px;box-shadow:0 0 5px -5px rgb(255 255 255 / 40%);-moz-box-shadow:0 0 5px -5px rgb(255 255 255 / 40%);-webkit-box-shadow:0 0 5px -5px rgb(255 255 255 / 40%)}
+.single_tabs,#single .content .sbox,.linktabs{border-bottom:none;border-radius:5px;box-shadow:0 0 5px -5px #fffffff7;-moz-box-shadow:0 0 5px -5px #fffffff7;-webkit-box-shadow:0 0 5px -5px #fffffff7}
+#single .content.right{border-right:none;border-radius:5px;box-shadow:0 0 13px -7px rgb(255 255 255 / 29%);-moz-box-shadow:0 0 13px -7px rgb(255 255 255 / 29%);-webkit-box-shadow:0 0 13px -7px rgb(255 255 255 / 29%)}
+/* footer pie de pagina css */
+footer.main .fcmpbox{background:#00050e}
+/* scrooll deslizador mause */
+::-webkit-scrollbar{width:8px;height:12px;border-radius:5px;border:1px #4242426b double;background:#070c22}
+::-webkit-scrollbar-thumb{background-color:#0b5c1e;transition:all 400ms ease-in-out;border-radius:5px}
+::-webkit-scrollbar-track{background-color:rgba(0,0,0,.1);border-radius:10px}
+/* lista de episodios */
+#seasons .se-c .se-a ul.episodios{display:flex;flex-wrap:wrap;justify-content:space-around}
+#seasons .se-c .se-a ul.episodios li{width:25%;padding:10px;overflow:hidden;transition:transform .2s;position:relative}
+#seasons .se-c .se-a ul.episodios li .imagen{width:100%;overflow:hidden;border-radius:15px;border:solid 3px transparent;transition:transform .2s}
+#seasons .se-c .se-a ul.episodios li:hover .imagen img{transform:scale(1.3);transition:transform .2s}
+#seasons .se-c .se-q{background:rgb(2 2 2 / 62%);border-radius:7px;box-shadow:0 0 20px -3px rgb(22 122 198 / 55%);-moz-box-shadow:0 0 20px -3px rgb(22 122 198 / 55%);-webkit-box-shadow:0 0 20px -3px rgb(22 122 198 / 55%)}
+#seasons .se-c .se-a,#seasons .se-c .se-a ul.episodios{background:rgb(1 2 10 / 15%)}
+#seasons .se-c .se-a ul.episodios li .imagen{width:100%}
+#seasons .se-c .se-a ul.episodios li .imagen img{width:100%;border-radius:15px}
+#seasons .se-c .se-a ul.episodios li .numerando{padding:5px;margin-bottom:20px !important;margin-left:5px !important;margin:0;text-align:center;border-right:solid 0px;width:95%;font-size:20px;background:#232758;border-radius:5px}
+#seasons .se-c .se-a ul.episodios li .episodiotitle{padding:0;overflow:unset;width:100%}
+#seasons .se-c .se-a ul.episodios li .episodiotitle a{position:absolute;height:150%;padding:10px;padding-left:5px;color:#ffffff !important;background:rgb(3 4 22 / 15%);border-radius:15px}
+#seasons .se-c .se-a ul.episodios li .episodiotitle span.date{padding-top:90px;padding-left:5px}
+ul.episodios{max-height:450px;overflow:auto}
+/* relacionados */
+.sheader .poster img{border-radius:8px;box-shadow:0 0 4px 0px rgb(169 127 7);-moz-box-shadow:0 0 4px 0px rgb(169 127 7);-webkit-box-shadow:0 0 4px 0px rgb(169 127 7)}
+.srelacionados article img{border-radius:8px;box-shadow:0px 20px 30px -10px rgb(92 7 169);-moz-box-shadow:0px 20px 30px -10px rgb(92 7 169);-webkit-box-shadow:0 0 4px 0px rgb(92 7 169)}
+ul.smenu li a:hover{background:#74008b !important;color:#fff !important}
+ul.smenu li a{width:auto;color:rgba(255,255,255,.5);box-shadow:0 0 8px 0px rgb(5 108 18 / 29%);-moz-box-shadow:0 0 8px 0px rgb(5 108 18 / 29%);-webkit-box-shadow:0 0 8px 0px rgb(5 108 18 / 29%)}
+/* botones siguiente y anterior serie */
+.pag_episodes .item{margin:5px 13px;width:calc(87%/ 3);border:0}
+.pag_episodes .item a:hover{background-color:#227a25;color:#fff;animation:zoom 300ms ease-in !important}
+.pag_episodes .item a{border-radius:50px;background-color:#1E2747;box-shadow:0 0 8px 0px rgb(5 108 18 / 29%);-moz-box-shadow:0 0 8px 0px rgb(5 108 18 / 29%);-webkit-box-shadow:0 0 8px 0px rgb(26 26 26);transition:all 0.5s ease 0s;-webkit-transition:all 0.5s ease 0s}
+/* PAGINA DE RESULTADOS DE BUSQUEDA */
+.result-item article .image .thumbnail img{border-radius:5px}
+.search-page .result-item:{transition:all .8s cubic-bezier(.2,.8,.2,1.2) 0s!important}
+.search-page .result-item:hover{box-shadow:0px 12px 18px -6px rgb(32 53 90 / 50%);transform:translateY(-8px);transition:all .8s cubic-bezier(.2,.8,.2,1.2) 0s!important}
+/* PIE DE PAGINA */
+header.main .hbox,#contenedor,footer.main .fbox{max-width:100%}
+footer.main{margin-bottom:0px}
+/* responsive minimo */
+@media only screen and (min-width:768px){ul.smenu li a{margin:0 15px}}
+/* responsive */
+@media only screen and (max-width:768px){::-webkit-scrollbar{height:3px}#seasons .se-c .se-a ul.episodios li{width:33.33333%}#seasons .se-c .se-a ul.episodios li .imagen img,{border-radius:5px}#seasons .se-c .se-a ul.episodios li .episodiotitle a{border-radius:5px;padding:5px;font-size:11px;border-radius:5px}#seasons .se-c .se-a ul.episodios li .numerando{margin-left:0px !important}li#player-option-trailer{display:none}.pag_episodes .item{margin:5px 6px;width:calc(90%/ 3)}.inicio-pub{display:none}}
+/* responsive contenido principal */
+@media only screen and (max-width:1130px){.module .content.full_width_layout .items .item{width:calc(100%/ 5)}}
+@media only screen and (max-width:980px){.module .content.full_width_layout .items .item{width:calc(100%/ 4)}}
+@media only screen and (max-width:767px){.module .content.full_width_layout .items .item{width:calc(100%/ 3)}.module_single_ads{display:none}.sgeneros,.extra,.starstruck-wrap{width:100% !important;margin:0 auto;display:-webkit-box !important;overflow:auto;overflow-y:hidden;scroll-snap-type:x mandatory}.sheader .data h1{font-size:22px !important;white-space:nowrap;display:-webkit-box;overflow-y:hidden}.sheader{padding:12px !important}}
+@media only screen and (max-width:580px){.module .content.full_width_layout .items .item{width:calc(100%/ 3)}.nav_items_module{display:none}#seasons .se-c .se-a ul.episodios li{width:50%}}
+@media only screen and (max-width:540px){ul.smenu li{width:auto !important;display:inline-block !important}}
+@media only screen and (max-width:230px){.module .content.full_width_layout .items .item{width:calc(100%/ 1)}}
+.sticky-ad{position:sticky;top:0;width:100%;height:250px;/* Asegura un espacio para el anuncio */background:white;/* Evita solapamientos con otros elementos */z-index:1000;/* Asegura que quede sobre otros elementos */text-align:center;display:flex;justify-content:center;align-items:center}
